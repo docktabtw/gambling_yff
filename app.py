@@ -58,6 +58,11 @@ while True:
             username = command[1]
             team = command[2]
             c.execute("DELETE * FROM users WHERE username = ? AND choosen_team = ?", (username, team))
+            if c.rowcount > 0:
+                print(f"Bet {username} on {team} is deleted.")
+            else:
+                print(f"Bet {username}")
+
         else:
             print("delete <username> <team>")
 
