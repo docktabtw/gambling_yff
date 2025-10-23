@@ -61,7 +61,7 @@ while True:
             if c.rowcount > 0:
                 print(f"Bet {username} on {team} is deleted.")
             else:
-                print(f"Bet {username} on {team} is not exists")
+                print(f"Bet {username} on {team} is not exists ")
 
         else:
             print("delete <username> <team>")
