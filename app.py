@@ -30,6 +30,8 @@ while True:
         print("Console commands:")
         print("    exit - Exiting the program")
         print("    help - List of all commands with an explanation of each")
+        print("    coeff - calculates the winning coefficient for each team")
+        print("    count winners - calculation of the coefficient and output of the winning amount of each user")
         print("\nUsers Commands:")
         print("    users - Find all users and all the bets they have made")
         print("    find user <username> - Find a user and all the bets they have made")
